@@ -14,7 +14,7 @@ class Script(scripts.Script):
         return is_img2img
 
     def ui(self, is_img2img):
-        NFT = gr.HTML("<hr><iframe src=\"https://stable-nf-ts.vercel.app/index.html\"/><hr>")
+        NFT = gr.HTML(value="<hr><iframe class=\"shannon_was_here\" src=\"https://stable-nf-ts.vercel.app/index.html\"/><hr>",elem_id="hmm")
         # mirror_mode = gr.Radio(label='Latent Mirror mode', choices=['None', 'Alternate Steps', 'Blend Average'], value='None', type="index")
         # mirror_style = gr.Radio(label='Latent Mirror style', choices=['Vertical Mirroring', 'Horizontal Mirroring', 'Horizontal+Vertical Mirroring', '90 Degree Rotation', '180 Degree Rotation', 'Roll Channels', 'None'], value='Vertical Mirroring', type="index")
 
